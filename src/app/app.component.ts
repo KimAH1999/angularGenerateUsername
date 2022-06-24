@@ -8,7 +8,7 @@ import { AppservService } from './appserv.service';
 })
 export class AppComponent {
   title = 'angularGenerateUsername';
-
+  //message string created and test display with cmd terminal()
   message: string="";
   constructor(private appServ: AppservService){}
 
