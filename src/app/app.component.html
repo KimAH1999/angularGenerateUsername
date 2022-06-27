@@ -172,18 +172,30 @@
 <!--END Toolbar/NavContainer-->
 <!--Content title and everything under Nav-->
 <div class="content" role="main">
-  <!--card=makes card on pg, highlight=css color for card, card-small=resize card for content title -->
-  <div class="card highlight-card card-small">
     <!--Tab Browser Title-->
     <title>FirstAngularProject</title>
     <!--Content subtitle-->
-    <span>Username Generator</span>
   </div>
   <!--browser subtitle for content title-->
-  <p>Username must contain: </p>
+  
   <!--END Content title and everything under Nav-->
   <!--Content card username Generator container-->
-  <div app-angular-generate-username></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-md-offset-4">
+         <!--card=makes card on pg, highlight=css color for card, card-small=resize card for content title -->
+        <h1 class="text-center login-title card highlight-card card-small">Login Here</h1>
+        <form class="form-signin">
+          <input type="text" class="form-control" placeholder="Username" required autofocus>
+          <p>Username must contain: </p>
+          <input type="password" class="form-control" placeholder="Password" required><br>
+          <p>Password must contain: </p>
+          <button class="btn btn-lg btn-primary btn-block" type="submit"> Sign in</button>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
