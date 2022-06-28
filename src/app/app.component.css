@@ -43,15 +43,6 @@ p {
     margin: 0 16px;
 }
 
-.toolbar #github-logo {
-    height: 40px;
-    margin: 0 8px;
-}
-
-.toolbar #github-logo:hover {
-    opacity: 0.8;
-}
-
 /*Content Form for signin flex and overall computed proterties(margin/boarder/padding*/
 .content {
     display: flex;
@@ -72,4 +63,61 @@ a:hover {
 
 a:hover {
     color: #125699;
+}
+
+/*USERNAME component section*/
+:host {
+	box-sizing: border-box ;
+	display: flex ;
+	flex-direction: column ;
+	font-size: 18px ;
+	min-height: 100vh ;
+	padding: 30px 30px 30px 30px ;
+}
+/*part 's and item 's are both for description list and things list*/
+.parts {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: auto auto auto auto;
+}
+
+.part {
+	height: 2em;
+	margin: 10px 10px 10px 10px ;
+	overflow: hidden ;
+	width: 50% ;
+	text-align: left;
+}
+
+.items {
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+	transition: transform 1000ms ease-in-out;
+}
+
+.item {
+	font-size: 22px;
+	font-weight: 530 ;
+	height: 100px;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+}
+/*Action for generator username button*/
+.actions {
+	display: flex ;
+	flex: 0 0 auto ;
+	justify-content: center ;
+}
+
+.action {
+	background-color: #ff3366 ;
+	border-radius: 8px 8px 8px 8px ; 
+	color: #ffffff ;
+	cursor: pointer ;
+	font-size: 20px ;
+	font-weight: 400 ;
+	letter-spacing: -1px;
+	padding: 5px 5px 10px 5px ;
+
 }
