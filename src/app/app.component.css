@@ -82,7 +82,7 @@ a:hover {
 }
 
 .part {
-	height: 2em;
+	height: 4em;
 	margin: 10px 10px 10px 10px ;
 	overflow: hidden ;
 	width: 50% ;
@@ -99,7 +99,7 @@ a:hover {
 .item {
 	font-size: 22px;
 	font-weight: 530 ;
-	height: 100px;
+	height: 85px;
 	margin: 0px 0px 0px 0px ;
 	padding: 0px 0px 0px 0px ;
 }
